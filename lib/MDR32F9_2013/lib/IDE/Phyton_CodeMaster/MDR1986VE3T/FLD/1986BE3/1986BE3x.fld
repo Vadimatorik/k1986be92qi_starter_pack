@@ -1,0 +1,36 @@
+#define __LocalDevCountDef__    1
+#define __LocalTapNumDef__      0
+#define __LocalIrOffsDef__      0
+
+#define __CpuIdValue__          0x411CC210
+
+#define __TrstIrSizeDef__       4
+#define __TrstIrVal0Def__       0x1
+#define __TrstIrMsk0Def__       0xF
+
+#define __TrstDrSizeDef__       32
+#define __TrstDrVal0Def__       0x4BA00477
+#define __TrstDrMsk0Def__       0xFFFFFFFF
+
+#define __DerivCodeDef__        0x00000003
+
+#define __OvrClockOpts__
+
+#include ..\..\fld.inc
+
+;------------- JTAG clock frequency value ----------------
+[JTAG/SWD Clock Frequency]
+Default = 1
+State0 = JTAGSpeed,2
+State1 = JTAGSpeed,3
+State2 = JTAGSpeed,4
+State3 = JTAGSpeed,5
+State4 = JTAGSpeed,6
+State5 = JTAGSpeed,7
+
+String0 = Maximum possible (up to 4.5 MHz)|Максимальная (до 4.5 МГц)
+String1 = Up to 2.25 MHz|Не более 2.25 МГц
+String2 = Up to 1.13 MHz|Не более 1.13 МГц
+String3 = Up to 562 KHz|Не более 562 кГц
+String4 = Up to 281 KHz|Не более 281 кГц
+String5 = Minimal possible (up to 141 KHz)|Минимальная (до 141 кГц)

@@ -1,0 +1,55 @@
+setup()
+{
+   __message "Unlock registers";
+   
+  /*Unlock sequence*/
+  __writeMemory32(0x00000059, 0x50000100, "Memory");  
+  __writeMemory32(0x00000016, 0x50000100, "Memory");   
+  __writeMemory32(0x00000088, 0x50000100, "Memory");  
+  
+  __message "Change boot mode";
+  /*switch to LDROM boot mode*/
+  __writeMemory32(__readMemory32(0x5000C000, "Memory")|(1<<1), 0x5000C000, "Memory");
+  
+  __hwReset(0);
+   
+  __message "Unlock registers";
+
+  /*Unlock sequence*/
+  __writeMemory32(0x00000059, 0x50000100, "Memory");  
+  __writeMemory32(0x00000016, 0x50000100, "Memory");   
+  __writeMemory32(0x00000088, 0x50000100, "Memory");  
+  
+  __message "Set clock to 12MHz";
+  /*Enable ext 12MHz osc*/
+  __writeMemory32(__readMemory32(0x50000200, "Memory")|(1<<0), 0x50000200, "Memory");
+  /*Wait osc to start*/ 
+  __delay(10); // 10ms
+  /*MCU and HCLK from ext osc*/
+  __writeMemory32(0x00000000, 0x50000210, "Memory");                                   
+
+}
+
+exit()
+{
+  __message "Change boot mode";
+  /*Switch back to APROM boot mode*/
+  __writeMemory32(__readMemory32(0x5000C000, "Memory")& ~(1<<1), 0x5000C000, "Memory");
+   
+  __hwReset(0);
+}
+
+execUserFlashInit()
+{
+  setup();
+}
+
+execUserReset()
+{
+  setup();
+}
+
+execUserFlashExit()
+{
+  exit();
+}

@@ -1,0 +1,33 @@
+-A (code)CODE(08000000H-0801FFFFH)
+-A (data)DATA(020000000H-020007FFFH)
+-m
+-Z CSTACK(4096)
+-M 10
+-M 20
+-M 21
+-M 60
+-M 80
+-O"C:\Program Files (x86)\Phyton CodeMaster-ARM Demo\2_40_00\CMC-ARM\Lib"
+-E"Debug\Exe\MDR32F9QX_DEMO"
+-F MIE
+Debug\Obj\startup_MDR32F9Qx.MCO
+Debug\Obj\Main.MCO
+Debug\Obj\MDR32F9Qx_bkp.MCO
+Debug\Obj\MDR32F9Qx_can.MCO
+Debug\Obj\MDR32F9Qx_comp.MCO
+Debug\Obj\MDR32F9Qx_dac.MCO
+Debug\Obj\MDR32F9Qx_dma.MCO
+Debug\Obj\MDR32F9Qx_ebc.MCO
+Debug\Obj\MDR32F9Qx_eeprom.MCO
+Debug\Obj\MDR32F9Qx_i2c.MCO
+Debug\Obj\MDR32F9Qx_iwdg.MCO
+Debug\Obj\MDR32F9Qx_port.MCO
+Debug\Obj\MDR32F9Qx_power.MCO
+Debug\Obj\MDR32F9Qx_rst_clk.MCO
+Debug\Obj\MDR32F9Qx_ssp.MCO
+Debug\Obj\MDR32F9Qx_timer.MCO
+Debug\Obj\MDR32F9Qx_uart.MCO
+Debug\Obj\MDR32F9Qx_usb.MCO
+Debug\Obj\MDR32F9Qx_wwdg.MCO
+Debug\Obj\MDR32F9Qx_adc.MCO
+carmM3.mcl

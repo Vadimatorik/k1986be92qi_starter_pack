@@ -1,0 +1,34 @@
+execUserFlashInit()
+{
+__var reg;
+    __message("-I- execUserFlashInit!");
+   // __writeMemory32(0x00000000, 0x40021004, "Memory"); // RCC_CFGR = 0
+   // __writeMemory32(0x00010081, 0x40021000, "Memory"); // RCC_CR   = 0x81
+   // __writeMemory32(0x00000000, 0x40021008, "Memory"); // RCC_CIR  = 0;
+    // unlock flash
+   // __writeMemory32(0x45670123, 0x40022004, "Memory"); // FLASH->FKEYR = FLASH_KEY1;
+   // __writeMemory32(0xCDEF89AB, 0x40022004, "Memory"); // FLASH->FKEYR = FLASH_KEY2;
+   // __writeMemory32(0x00000000, 0x40022000, "Memory"); // Flash 0 wait state
+   // __writeMemory32(0x00000000, 0x40022010, "Memory"); // FLASH->CR = 0;
+   // __writeMemory32(0x00000034, 0x4002200C, "Memory"); // FLASH->FLASH_SR = EOP | WRPRTERR | PGERR;
+    
+   // if(0 == ((1<<2) & __readMemory32(0x4002201C,"Memory")))
+  //  {
+   //   __message("-I- Hardware watchdog");
+  //    // Stop WDT when CPU is halted
+     // reg = __readMemory32(0xE0042004,"Memory");
+     // reg|= 1<<8;
+     // __writeMemory32(reg,0xE0042004,"Memory");
+      // Set max WDT period
+      // unlock WDT registers
+     // __writeMemory32(0x5555,0x40003000,"Memory");
+      // wait PVU reset
+     // while(1 & __readMemory32(0x4000300C,"Memory"));
+     // __writeMemory32(0x7,0x40003004,"Memory");
+      // wait RVU reset
+     // while(2 & __readMemory32(0x4000300C,"Memory"));
+     // __writeMemory32(0xFFF,0x40003008,"Memory");
+      // reaload WDT
+      //__writeMemory32(0xAAAA,0x40003000,"Memory");
+   // }
+}

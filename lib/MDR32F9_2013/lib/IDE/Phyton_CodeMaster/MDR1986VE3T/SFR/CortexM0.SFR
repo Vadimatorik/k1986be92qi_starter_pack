@@ -1,0 +1,345 @@
+
+#ifdef __DEBUG__
+ #ifdef __HARDWARE__
+  #include internal.sfr
+ #endif
+#endif
+
+
+;*******************************************
+;           Cortex-M0 Core Registers
+;*******************************************
+
+[Options]
+ DefaultVisibleOnTop=0
+
+[Reg Sets]
+ Category=1
+ VisibleOnTop=1
+ Link00=Current CPU Registers;CPU Registers;
+;
+[CPU Registers]
+ Category=1
+; VisibleOnTop=1
+ Link00=R0;R1;R2;R3;R4;R5;R6;R7;
+ Link01=R8;R9;R10;R11;R12;
+ Link13=SP;SP_main;SP_process;
+ Link14=LR;
+ Link15=PC
+ Link16=xPSR;APSR;IPSR;EPSR;IAPSR;EAPSR;IEPSR;
+ Link17=PRIMASK
+ Link18=MCU_CONTROL
+
+[Current CPU Registers]
+ Category=1
+; VisibleOnTop=1
+ Link00=R0;R1;R2;R3;R4;R5;R6;R7;
+ Link01=R8;R9;R10;R11;R12;
+ Link13=SP
+ Link14=LR
+ Link15=PC
+ Link16=xPSR;APSR;IPSR;EPSR;
+ Link17=PRIMASK
+ Link18=MCU_CONTROL
+
+;       *** Unbanked R0..R12 ***
+[R0]
+Virtual=1
+Addr=0x00
+Size=4
+TypeString=Register
+
+[R1]
+Virtual=1
+Addr=0x01
+Size=4
+TypeString=Register
+
+[R2]
+Virtual=1
+Addr=0x02
+Size=4
+TypeString=Register
+
+[R3]
+Virtual=1
+Addr=0x03
+Size=4
+TypeString=Register
+
+[R4]
+Virtual=1
+Addr=0x04
+Size=4
+TypeString=Register
+
+[R5]
+Virtual=1
+Addr=0x05
+Size=4
+TypeString=Register
+
+[R6]
+Virtual=1
+Addr=0x06
+Size=4
+TypeString=Register
+
+[R7]
+Virtual=1
+Addr=0x07
+Size=4
+TypeString=Register
+
+[R8]
+Virtual=1
+Addr=0x08
+Size=4
+TypeString=Register
+
+[R9]
+Virtual=1
+Addr=0x09
+Size=4
+TypeString=Register
+
+[R10]
+Virtual=1
+Addr=0x0A
+Size=4
+TypeString=Register
+
+[R11]
+Virtual=1
+Addr=0x0B
+Size=4
+TypeString=Register
+
+[R12]
+Virtual=1
+Addr=0x0C
+Size=4
+TypeString=Register
+
+
+;   *** SP ***
+; --- User/System ---
+[R13]
+Virtual=1
+Addr=0x0D
+Size=4
+TypeString=Register
+NameInCategory=SP (R13)
+
+[SP]
+Virtual=1
+Addr=0x0D
+Size=4
+TypeString=Register
+NameInCategory=SP (R13)
+
+; --- Main ---
+[MSP]
+Virtual=1
+Addr=0x11
+Size=4
+TypeString=Register
+
+[SP_main]
+Virtual=1
+Addr=0x11
+Size=4
+TypeString=Register
+
+; --- Process ---
+[PSP]
+Virtual=1
+Addr=0x12
+Size=4
+TypeString=Register
+
+[SP_process]
+Virtual=1
+Addr=0x12
+Size=4
+TypeString=Register
+
+;   *** LR ***
+; --- User/System ---
+[R14]
+Virtual=1
+Addr=0x0E
+Size=4
+TypeString=Register
+NameInCategory=LR (R14)
+
+[LR]
+Virtual=1
+Addr=0x0E
+Size=4
+TypeString=Register
+NameInCategory=LR (R14)
+
+;   *** PC ***
+[R15]
+Virtual=1
+Addr=0x0F
+Size=4
+TypeString=Register
+NameInCategory=PC (R15)
+
+[PC]
+Virtual=1
+Addr=0x0F
+Size=4
+TypeString=Register
+NameInCategory=PC (R15)
+
+;   *** PSR ***
+[xPSR]
+Virtual=1
+Addr=0x10
+Size=4
+TypeString=Register
+
+; --- APSR Flags ----
+[[N]]
+Bits=31
+
+[[Z]]
+Bits=30
+
+[[C]]
+Bits=29
+
+[[V]]
+Bits=28
+
+; --- EPSR Flags ----
+[[T]]
+Bits=24
+
+; --- IPSR Fields ----
+[[EXCPT]]
+Bits=5..0
+
+
+[APSR]
+Virtual=1
+Addr=0x40
+Size=4
+TypeString=Register
+
+; --- APSR Flags ----
+[[N]]
+Bits=31
+
+[[Z]]
+Bits=30
+
+[[C]]
+Bits=29
+
+[[V]]
+Bits=28
+
+
+[IPSR]
+Virtual=1
+Addr=0x41
+Size=4
+TypeString=Register
+
+; --- IPSR Fields ----
+[[EXCPT]]
+Bits=5..0
+
+
+[EPSR]
+Virtual=1
+Addr=0x42
+Size=4
+TypeString=Register
+
+; --- EPSR Flags ----
+[[T]]
+Bits=24
+
+
+[IAPSR]
+Virtual=1
+Addr=0x43
+Size=4
+TypeString=Register
+
+; --- APSR Flags ----
+[[N]]
+Bits=31
+
+[[Z]]
+Bits=30
+
+[[C]]
+Bits=29
+
+[[V]]
+Bits=28
+
+; --- IPSR Fields ----
+[[EXCPT]]
+Bits=5..0
+
+
+[EAPSR]
+Virtual=1
+Addr=0x44
+Size=4
+TypeString=Register
+
+; --- APSR Flags ----
+[[N]]
+Bits=31
+
+[[Z]]
+Bits=30
+
+[[C]]
+Bits=29
+
+[[V]]
+Bits=28
+
+; --- EPSR Flags ----
+[[T]]
+Bits=24
+
+
+[IEPSR]
+Virtual=1
+Addr=0x45
+Size=4
+TypeString=Register
+
+; --- EPSR Flags ----
+[[T]]
+Bits=24
+
+; --- IPSR Fields ----
+[[EXCPT]]
+Bits=5..0
+
+
+[PRIMASK]
+Virtual=1
+Addr=0x20
+Size=4
+TypeString=Register
+
+[MCU_CONTROL]
+Virtual=1
+Addr=0x23
+Size=4
+TypeString=Register
+
+[[SP_PROCESS]]
+Bits=1

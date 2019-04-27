@@ -1,0 +1,137 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.40.2.53884/W32 for ARM              25/Jun/2013  10:31:00 #
+# Copyright 2007-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloader #
+#                     1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Exe\FlashM #
+#                    DR32F1xRAM4K.out                                         #
+#    Map file     =  C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloader #
+#                     1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\List\Flash #
+#                    MDR32F1xRAM4K.map                                        #
+#    Command line =  "C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloade #
+#                    r 1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Obj\Flash #
+#                    MDR32F1x.o" "C:\Users\sidorov.a\workspace\iar_arm\arm\sr #
+#                    c\flashloader 1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM #
+#                    4K\Obj\flash_loader.o" "C:\Users\sidorov.a\workspace\iar #
+#                    _arm\arm\src\flashloader 1986VE93\Milandr\MDR32F1x\Flash #
+#                    MDR32F1xRAM4K\Obj\flash_loader_asm.o" --redirect         #
+#                    _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmall -o     #
+#                    "C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloade #
+#                    r 1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Exe\Flash #
+#                    MDR32F1xRAM4K.out" --map "C:\Users\sidorov.a\workspace\i #
+#                    ar_arm\arm\src\flashloader 1986VE93\Milandr\MDR32F1x\Fla #
+#                    shMDR32F1xRAM4K\List\FlashMDR32F1xRAM4K.map" --config    #
+#                    "C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloade #
+#                    r 1986VE93\Milandr\MDR32F1x\MDR32F1x4k.icf"              #
+#                    --semihosting --no_library_search --entry                #
+#                    FlashInitEntry --redirect __iar_sh_stdout=__iar_sh_stdou #
+#                    t_swo --vfe                                              #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Li005]: no definition for "__aeabi_uidivmod" [referenced from
+          C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloader
+          1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Obj\FlashMDR32F1x.o]
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x20100000 { section .intvec };
+"A2":  place at start of [0x20101000-0x20101fff] { block RamTop };
+"A3":  place at end of [0x20101000-0x20101fff] { block RamBottom };
+
+  Section      Kind        Address   Size  Object
+  -------      ----        -------   ----  ------
+"A1":                                0x20
+  .intvec      ro code  0x20100000   0x20  flash_loader_asm.o [1]
+                      - 0x20100020   0x20
+
+"A2":                               0x300
+  RamTop                0x20101000  0x300  <Block>
+    .text      ro code  0x20101000  0x1d8  FlashMDR32F1x.o [1]
+    .text      ro code  0x201011d8   0x9a  flash_loader.o [1]
+    .text      ro code  0x20101274   0x18  flash_loader_asm.o [1]
+    LOWEND     const    0x20101300    0x0  flash_loader_asm.o [1]
+                      - 0x20101300  0x300
+
+"A3":                               0x214
+  RamBottom             0x20101dec  0x214  <Block>
+    HIGHSTART  const    0x20101dec    0x0  flash_loader_asm.o [1]
+    .noinit    uninit   0x20101dec   0x14  flash_loader.o [1]
+    CSTACK              0x20101e00  0x200  <Block>
+      CSTACK   uninit   0x20101e00  0x200  <Block tail>
+                      - 0x20102000  0x214
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  rw data
+    ------              -------  -------
+C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloader 1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Obj: [1]
+    FlashMDR32F1x.o         472
+    flash_loader.o          154       20
+    flash_loader_asm.o       56
+    ------------------------------------
+    Total:                  682       20
+
+    Gaps                      2      116
+    Linker created                   512
+----------------------------------------
+    Grand Total:            684      648
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+CSTACK$$Base          0x20101e00         --   Gb  - Linker created -
+CSTACK$$Limit         0x20102000         --   Gb  - Linker created -
+Fl2FlashEraseWriteEntry
+                      0x20101211  0x5a  Code  Gb  flash_loader.o [1]
+Fl2FlashInitEntry     0x201011d9  0x1c  Code  Gb  flash_loader.o [1]
+Fl2FlashWriteEntry    0x201011f5  0x1c  Code  Gb  flash_loader.o [1]
+FlashBreak            0x20101271   0x2  Code  Gb  flash_loader.o [1]
+FlashBufferEnd        0x20101dec        Data  Gb  flash_loader_asm.o [1]
+FlashBufferStart      0x20101300        Data  Gb  flash_loader_asm.o [1]
+FlashErase            0x201010e7  0xbe  Code  Gb  FlashMDR32F1x.o [1]
+FlashEraseWriteEntry  0x20101285        Code  Gb  flash_loader_asm.o [1]
+FlashInit             0x20101001  0x12  Code  Gb  FlashMDR32F1x.o [1]
+FlashInitEntry        0x20101275        Code  Gb  flash_loader_asm.o [1]
+FlashWrite            0x20101013  0xd4  Code  Gb  FlashMDR32F1x.o [1]
+FlashWriteEntry       0x2010127d        Code  Gb  flash_loader_asm.o [1]
+RamBottom$$Base       0x20101dec         --   Gb  - Linker created -
+RamBottom$$Limit      0x20102000         --   Gb  - Linker created -
+RamTop$$Base          0x20101000         --   Gb  - Linker created -
+RamTop$$Limit         0x20101300         --   Gb  - Linker created -
+__vector_table        0x20100000        Data  Gb  flash_loader_asm.o [1]
+theFlashParams        0x20101dec  0x14  Data  Gb  flash_loader.o [1]
+
+
+[1] = C:\Users\sidorov.a\workspace\iar_arm\arm\src\flashloader 1986VE93\Milandr\MDR32F1x\FlashMDR32F1xRAM4K\Obj
+[2] = command line
+
+  684 bytes of readonly  code memory
+  648 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none

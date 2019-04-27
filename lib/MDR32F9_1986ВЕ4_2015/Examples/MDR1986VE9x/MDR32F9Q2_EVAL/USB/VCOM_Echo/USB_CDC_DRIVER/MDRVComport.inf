@@ -1,0 +1,49 @@
+; MDRVComPort.inf - Virtual COM Port to USB
+; Driver for Windows NT family
+;
+; Copyright 2011 Milandr
+;
+
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGUID={4d36e978-e325-11ce-bfc1-08002be10318}
+Provider=%MDR%
+DriverVer=01/06/2011,1.0.0
+
+[DestinationDirs]
+DefaultDestDir=12
+
+[Manufacturer]
+%MDR%=Milandr
+
+[Milandr]
+%MDR_CDC&VID_0483&PID_F125.DeviceDesc%=MDRVCom,USB\VID_0483&PID_F125
+
+[MDRVCom.NT]
+CopyFiles=MDRVCom.NT.Copy
+AddReg=MDRVCom.NT.AddReg
+
+[MDRVCom.NT.Copy]
+usbser.sys
+
+[MDRVCom.NT.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[MDRVCom.NT.Services]
+AddService=usbser, 0x00000002, Service_Inst
+
+[Service_Inst]
+DisplayName=%MDRVCom.SvcDesc%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+LoadOrderGroup=Base
+
+[Strings]
+MDR="Milandr"
+MDR_CDC&VID_0483&PID_F125.DeviceDesc="Milandr Virtual COM port"
+MDRVCom.SvcDesc="Milandr Virtual COM port"

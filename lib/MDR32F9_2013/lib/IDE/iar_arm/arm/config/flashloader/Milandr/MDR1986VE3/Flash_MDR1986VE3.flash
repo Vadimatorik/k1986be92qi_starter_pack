@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$TOOLKIT_DIR$\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3_F1xRAM4K.out</exe>
+  <page>2</page>
+  <block>128 0x400</block>
+  <flash_base>0x00000000</flash_base>
+  <macro>$TOOLKIT_DIR$\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.mac</macro>
+  <aggregate>1</aggregate>
+</flash_device>

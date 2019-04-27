@@ -1,0 +1,6 @@
+; External memory = No
+
+#include ..\cortex_generic.inc
+
+#include 1986BE3_ram_32K_16K.inc
+#include 1986BE3_flash_128K.inc

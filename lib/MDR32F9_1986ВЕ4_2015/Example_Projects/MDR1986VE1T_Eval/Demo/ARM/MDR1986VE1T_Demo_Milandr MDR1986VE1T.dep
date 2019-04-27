@@ -1,0 +1,711 @@
+Dependencies for Project 'MDR1986VE1T_Demo', Target 'Milandr MDR1986VE1T': (DO NOT MODIFY !)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_adc.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_adc.o --omf_browse .\debug\exe\mdr32f9qx_adc.crf --depend .\debug\exe\mdr32f9qx_adc.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_bkp.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_bkp.o --omf_browse .\debug\exe\mdr32f9qx_bkp.crf --depend .\debug\exe\mdr32f9qx_bkp.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_bkp.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_can.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_can.o --omf_browse .\debug\exe\mdr32f9qx_can.crf --depend .\debug\exe\mdr32f9qx_can.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_can.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_dac.c)(0x55365BCB)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_dac.o --omf_browse .\debug\exe\mdr32f9qx_dac.crf --depend .\debug\exe\mdr32f9qx_dac.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dac.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_dma.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_dma.o --omf_browse .\debug\exe\mdr32f9qx_dma.crf --depend .\debug\exe\mdr32f9qx_dma.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_ebc.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_ebc.o --omf_browse .\debug\exe\mdr32f9qx_ebc.crf --depend .\debug\exe\mdr32f9qx_ebc.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_ebc.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eeprom.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_eeprom.o --omf_browse .\debug\exe\mdr32f9qx_eeprom.crf --depend .\debug\exe\mdr32f9qx_eeprom.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eeprom.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_iwdg.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_iwdg.o --omf_browse .\debug\exe\mdr32f9qx_iwdg.crf --depend .\debug\exe\mdr32f9qx_iwdg.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_port.o --omf_browse .\debug\exe\mdr32f9qx_port.crf --depend .\debug\exe\mdr32f9qx_port.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_power.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_power.o --omf_browse .\debug\exe\mdr32f9qx_power.crf --depend .\debug\exe\mdr32f9qx_power.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_power.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_rst_clk.o --omf_browse .\debug\exe\mdr32f9qx_rst_clk.crf --depend .\debug\exe\mdr32f9qx_rst_clk.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_ssp.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_ssp.o --omf_browse .\debug\exe\mdr32f9qx_ssp.crf --depend .\debug\exe\mdr32f9qx_ssp.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_ssp.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_timer.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_timer.o --omf_browse .\debug\exe\mdr32f9qx_timer.crf --depend .\debug\exe\mdr32f9qx_timer.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_uart.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_uart.o --omf_browse .\debug\exe\mdr32f9qx_uart.crf --depend .\debug\exe\mdr32f9qx_uart.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_usb.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_usb.o --omf_browse .\debug\exe\mdr32f9qx_usb.crf --depend .\debug\exe\mdr32f9qx_usb.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_wwdg.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_wwdg.o --omf_browse .\debug\exe\mdr32f9qx_wwdg.crf --depend .\debug\exe\mdr32f9qx_wwdg.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_wwdg.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_arinc429r.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_arinc429r.o --omf_browse .\debug\exe\mdr32f9qx_arinc429r.crf --depend .\debug\exe\mdr32f9qx_arinc429r.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_arinc429r.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_arinc429t.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_arinc429t.o --omf_browse .\debug\exe\mdr32f9qx_arinc429t.crf --depend .\debug\exe\mdr32f9qx_arinc429t.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_arinc429t.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_eth.o --omf_browse .\debug\exe\mdr32f9qx_eth.crf --depend .\debug\exe\mdr32f9qx_eth.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eth.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\math.h)(0x53467284)
+I (C:\Keil5\ARM\ARMCC\include\stdio.h)(0x53467284)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_mil_std_1553.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_mil_std_1553.o --omf_browse .\debug\exe\mdr32f9qx_mil_std_1553.crf --depend .\debug\exe\mdr32f9qx_mil_std_1553.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_mil_std_1553.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\USB_Library\MDR32F9Qx_usb_CDC.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_usb_cdc.o --omf_browse .\debug\exe\mdr32f9qx_usb_cdc.crf --depend .\debug\exe\mdr32f9qx_usb_cdc.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\MDR32F9Qx_usb_handlers.h)(0x51D561C6)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_default_handlers.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_CDC.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library/MDR32F9Qx_usb_device.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x542BDAA3)
+F (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\src\USB_Library\MDR32F9Qx_usb_device.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr32f9qx_usb_device.o --omf_browse .\debug\exe\mdr32f9qx_usb_device.crf --depend .\debug\exe\mdr32f9qx_usb_device.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\MDR32F9Qx_usb_handlers.h)(0x51D561C6)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_default_handlers.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_CDC.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library/MDR32F9Qx_usb_device.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x542BDAA3)
+F (..\..\src_fatfs\rtc.c)(0x51CAE0F5)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\rtc.o --omf_browse .\debug\exe\rtc.crf --depend .\debug\exe\rtc.d)
+I (..\..\src_fatfs\rtc.h)(0x51541D7C)
+I (..\..\src_fatfs\integer.h)(0x51541D7C)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_bkp.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+F (..\..\src_fatfs\ff.c)(0x51541D7C)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\ff.o --omf_browse .\debug\exe\ff.crf --depend .\debug\exe\ff.d)
+I (..\..\src_fatfs\ff.h)(0x51541D7C)
+I (..\..\src_fatfs\integer.h)(0x51541D7C)
+I (..\..\src_fatfs\ffconf.h)(0x51541D7C)
+I (..\..\src_fatfs\diskio.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdarg.h)(0x53467284)
+F (..\..\src_fatfs\mmc.c)(0x51CAE0C1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mmc.o --omf_browse .\debug\exe\mmc.crf --depend .\debug\exe\mmc.d)
+I (..\..\src_fatfs\diskio.h)(0x51541D7C)
+I (..\..\src_fatfs\integer.h)(0x51541D7C)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+F (..\..\fonts\Font_12x16.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\font_12x16.o --omf_browse .\debug\exe\font_12x16.crf --depend .\debug\exe\font_12x16.d)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+F (..\..\fonts\Font_6x8.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\font_6x8.o --omf_browse .\debug\exe\font_6x8.crf --depend .\debug\exe\font_6x8.d)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+F (..\..\fonts\Font_7x10_bold.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\font_7x10_bold.o --omf_browse .\debug\exe\font_7x10_bold.crf --depend .\debug\exe\font_7x10_bold.d)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+F (..\..\fonts\Font_7x10_thin.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\font_7x10_thin.o --omf_browse .\debug\exe\font_7x10_thin.crf --depend .\debug\exe\font_7x10_thin.d)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+F (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\startup_MDR1986VE1T.s)(0x542BCE6D)(--cpu Cortex-M1 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x--list .\debug\lst\startup_mdr1986ve1t.lst --xref -o .\debug\exe\startup_mdr1986ve1t.o --depend .\debug\exe\startup_mdr1986ve1t.d)
+F (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.c)(0x542BDAA2)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\system_mdr1986ve1t.o --omf_browse .\debug\exe\system_mdr1986ve1t.crf --depend .\debug\exe\system_mdr1986ve1t.d)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+F (..\..\src\text.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\text.o --omf_browse .\debug\exe\text.crf --depend .\debug\exe\text.d)
+I (C:\Keil5\ARM\ARMCC\include\string.h)(0x53467284)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\menu.h)(0x528B4D09)
+F (..\..\src\adc.c)(0x528B360E)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\adc.o --omf_browse .\debug\exe\adc.crf --depend .\debug\exe\adc.d)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\Inc\demo_init.h)(0x51CAE1A1)
+F (..\..\src\gl.c)(0x51CAE1A1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\gl.o --omf_browse .\debug\exe\gl.crf --depend .\debug\exe\gl.d)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\gl.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+F (..\..\src\joystick.c)(0x528B41E1)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\joystick.o --omf_browse .\debug\exe\joystick.crf --depend .\debug\exe\joystick.d)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\types.h)(0x51541D7C)
+F (..\..\src\leds.c)(0x528B5011)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\leds.o --omf_browse .\debug\exe\leds.crf --depend .\debug\exe\leds.d)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\types.h)(0x51541D7C)
+F (..\..\src\Main.c)(0x528602FC)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\inc -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\main.o --omf_browse .\debug\exe\main.crf --depend .\debug\exe\main.d)
+I (C:\Keil5\ARM\ARMCC\include\stdio.h)(0x53467284)
+I (..\..\inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\inc\lcd.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\inc\gl.h)(0x51CAE1A1)
+I (..\..\inc\text.h)(0x51CAE1A1)
+I (..\..\inc\font_defs.h)(0x51CAE1A1)
+I (..\..\inc\joystick.h)(0x528B5931)
+I (..\..\inc\leds.h)(0x528B5931)
+I (..\..\inc\menu.h)(0x528B4D09)
+I (..\..\inc\time.h)(0x51D561C6)
+I (..\..\inc\lowpower.h)(0x51D561C6)
+I (..\..\inc\Demo_Init.h)(0x51CAE1A1)
+F (..\..\src\Menu.c)(0x528B554D)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu.o --omf_browse .\debug\exe\menu.crf --depend .\debug\exe\menu.d)
+I (C:\Keil5\ARM\ARMCC\include\string.h)(0x53467284)
+I (C:\Keil5\ARM\ARMCC\include\stddef.h)(0x53467284)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\gl.h)(0x51CAE1A1)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\leds.h)(0x528B5931)
+F (..\..\src\Menu_gl.c)(0x528B431F)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_gl.o --omf_browse .\debug\exe\menu_gl.crf --depend .\debug\exe\menu_gl.d)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\gl.h)(0x51CAE1A1)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\adc.h)(0x51CAE1A1)
+F (..\..\src\Menu_leds.c)(0x528B43B9)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_leds.o --omf_browse .\debug\exe\menu_leds.crf --depend .\debug\exe\menu_leds.d)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+F (..\..\src\Menu_text.c)(0x528B44A9)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_text.o --omf_browse .\debug\exe\menu_text.crf --depend .\debug\exe\menu_text.d)
+I (C:\Keil5\ARM\ARMCC\include\string.h)(0x53467284)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\adc.h)(0x51CAE1A1)
+F (..\..\src\Menu_time.c)(0x528B462F)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_time.o --omf_browse .\debug\exe\menu_time.crf --depend .\debug\exe\menu_time.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_bkp.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\time.h)(0x51D561C6)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+F (..\..\src\Menu_tsensor.c)(0x528B4564)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_tsensor.o --omf_browse .\debug\exe\menu_tsensor.crf --depend .\debug\exe\menu_tsensor.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\Inc\adc.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+F (..\..\src\Menu_uart.c)(0x528B459E)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_uart.o --omf_browse .\debug\exe\menu_uart.crf --depend .\debug\exe\menu_uart.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BDAA3)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+F (..\..\src\Menu_VCOM.c)(0x528B45D6)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_vcom.o --omf_browse .\debug\exe\menu_vcom.crf --depend .\debug\exe\menu_vcom.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BDAA3)
+I (..\..\Inc\MDR32F9Qx_usb_handlers.h)(0x51D561C6)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_default_handlers.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_CDC.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library/MDR32F9Qx_usb_device.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x542BDAA3)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\demo_init.h)(0x51CAE1A1)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+F (..\..\src\Menu_lowpower.c)(0x528B43F7)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\menu_lowpower.o --omf_browse .\debug\exe\menu_lowpower.crf --depend .\debug\exe\menu_lowpower.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_power.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_bkp.h)(0x542BDAA3)
+I (..\..\Inc\systick.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\Menu.h)(0x528B4D09)
+I (..\..\Inc\Menu_items.h)(0x51CAE1A1)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\text.h)(0x51CAE1A1)
+I (..\..\Inc\font_defs.h)(0x51CAE1A1)
+I (..\..\Inc\joystick.h)(0x528B5931)
+I (..\..\Inc\time.h)(0x51D561C6)
+I (..\..\Inc\demo_init.h)(0x51CAE1A1)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+F (..\..\src\systick.c)(0x528B45F9)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\systick.o --omf_browse .\debug\exe\systick.crf --depend .\debug\exe\systick.d)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\Inc\types.h)(0x51541D7C)
+F (..\..\src\Demo_Init_MDR1986VE1T.c)(0x528B3C5E)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\demo_init_mdr1986ve1t.o --omf_browse .\debug\exe\demo_init_mdr1986ve1t.crf --depend .\debug\exe\demo_init_mdr1986ve1t.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_ebc.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eeprom.h)(0x542BDAA3)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\demo_init.h)(0x51CAE1A1)
+F (..\..\src\lcd_MDR1986VE1T.c)(0x528B5931)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\lcd_mdr1986ve1t.o --omf_browse .\debug\exe\lcd_mdr1986ve1t.crf --depend .\debug\exe\lcd_mdr1986ve1t.d)
+I (..\..\Inc\lcd.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BDAA3)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\lcd_MDR1986VE1T.h)(0x528B5931)
+F (..\..\src\MDR1986VE1T_it.c)(0x51D53233)(-c --cpu Cortex-M1 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Libraries\CMSIS\CM1\CoreSupport -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I..\..\Config -I..\..\Inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library --diag_suppress=47-I C:\Keil5\ARM\RV31\INC-I C:\Keil5\ARM\CMSIS\Include-I C:\Keil5\ARM\Inc\Milandr\MDR32F9x-o .\debug\exe\mdr1986ve1t_it.o --omf_browse .\debug\exe\mdr1986ve1t_it.crf --depend .\debug\exe\mdr1986ve1t_it.d)
+I (..\..\Config\MDR32F9Qx_config.h)(0x528B5931)
+I (..\..\Config\MDR32F9Qx_board.h)(0x528B5931)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BDAA3)
+I (C:\Keil5\ARM\ARMCC\include\stdint.h)(0x53467284)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BCE6D)
+I (..\..\..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_adc.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_bkp.h)(0x542BDAA3)
+I (..\..\..\..\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BDAA3)
+I (..\..\Inc\MDR1986VE1T_it.h)(0x51CAE1A1)
+I (..\..\Inc\types.h)(0x51541D7C)
+I (..\..\Inc\leds.h)(0x528B5931)
+I (..\..\Inc\time.h)(0x51D561C6)
+I (..\..\Inc\lowpower.h)(0x51D561C6)

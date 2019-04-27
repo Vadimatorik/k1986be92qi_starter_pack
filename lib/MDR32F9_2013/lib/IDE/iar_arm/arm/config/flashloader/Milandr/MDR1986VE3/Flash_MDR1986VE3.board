@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$TOOLKIT_DIR$\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.flash</loader>
+    <range>CODE 0x00000000 0x00020000</range>
+  </pass>
+</flash_board>
+
+

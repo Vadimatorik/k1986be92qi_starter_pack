@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>270719398</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_state.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\cvt.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ee_printf.o</file>
+      <file>$PROJ_DIR$\core_list_join.c</file>
+      <file>$PROJ_DIR$\1986be91_sys.h</file>
+      <file>$PROJ_DIR$\core_matrix.c</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\cvt.o</file>
+      <file>$PROJ_DIR$\1986be91_power.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_1986&#x412;&#x415;91T1.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_main.pbi</file>
+      <file>$PROJ_DIR$\1986be91_rst_clk.h</file>
+      <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+      <file>$PROJ_DIR$\ee_printf.c</file>
+      <file>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</file>
+      <file>$PROJ_DIR$\1986be91_spi.h</file>
+      <file>$PROJ_DIR$\system_1986BE9x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_util.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_1986BE9x.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_util.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cvt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Serial.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_list_join.o</file>
+      <file>$PROJ_DIR$\CortexM3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_portme.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_1986&#x412;&#x415;91T1.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Serial.pbi</file>
+      <file>$PROJ_DIR$\1986be91_wwdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_main.o</file>
+      <file>$PROJ_DIR$\1986be91_adc.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_state.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_1986BE9x.pbi</file>
+      <file>$PROJ_DIR$\Serial.c</file>
+      <file>$PROJ_DIR$\Serial.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_matrix.o</file>
+      <file>$PROJ_DIR$\1986be91_uart.h</file>
+      <file>$PROJ_DIR$\startup_1986be9x.s</file>
+      <file>$PROJ_DIR$\system_1986BE9x.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_list_join.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\1986be91_can.h</file>
+      <file>$PROJ_DIR$\1986be91_i2c.h</file>
+      <file>$PROJ_DIR$\1986be91_ext_bus_cntrl.h</file>
+      <file>$PROJ_DIR$\1986be91_eeprom.h</file>
+      <file>$PROJ_DIR$\1986be91_comp.h</file>
+      <file>$PROJ_DIR$\1986be91_dma.h</file>
+      <file>$PROJ_DIR$\core_portme.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_matrix.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ee_printf.pbi</file>
+      <file>$PROJ_DIR$\1986be91_bkp.h</file>
+      <file>$PROJ_DIR$\1986be91_usb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_portme.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_1986be9x.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\coremark.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\1986be91_port.h</file>
+      <file>$PROJ_DIR$\core_state.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\mcb1700\system_1986&#x412;&#x415;91T1.c</file>
+      <file>$PROJ_DIR$\core_util.c</file>
+      <file>$PROJ_DIR$\1986be91_timer.h</file>
+      <file>$PROJ_DIR$\1986be91_dac.h</file>
+      <file>$PROJ_DIR$\1986be91_iwdg.h</file>
+      <file>$PROJ_DIR$\core_main.c</file>
+      <file>$PROJ_DIR$\cm3_macro.h</file>
+      <file>$PROJ_DIR$\1986be91t1.h</file>
+      <file>$PROJ_DIR$\coremark.h</file>
+      <file>$PROJ_DIR$\core_portme.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\cvt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 66 30 58 14 72 59 49 67 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_list_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_matrix.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 17 27 28 36 44 31 1 25 9 4 65 12 2 8 33 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ee_printf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56 43 24 66 58 14 72 59 49 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_1986be9x.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\system_1986BE9x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\coremark.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 34 48 15 57 64 40 22 26 61 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_state.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\mcb1700\system_1986&#x412;&#x415;91T1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_portme.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 56 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 56 80 50 79 63 53 16 55 45 20 51 10 35 77 75 37 76 54 70 62 52 6 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cvt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_list_join.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_matrix.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\ee_printf.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Serial.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_state.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_util.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_portme.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\Serial.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_list_join.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ee_printf.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Serial.pbi</file>
+      <file>$PROJ_DIR$\cvt.c</file>
+      <file>$PROJ_DIR$\Release\Obj\core_list_join.o</file>
+      <file>$PROJ_DIR$\core_list_join.c</file>
+      <file>$PROJ_DIR$\1986be91_sys.h</file>
+      <file>$PROJ_DIR$\core_matrix.c</file>
+      <file>$PROJ_DIR$\1986be91_power.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\1986be91_rst_clk.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_main.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_util.pbi</file>
+      <file>$PROJ_DIR$\ee_printf.c</file>
+      <file>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</file>
+      <file>$PROJ_DIR$\1986be91_spi.h</file>
+      <file>$PROJ_DIR$\Release\Obj\cvt.o</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_1986be9x.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_portme.o</file>
+      <file>$PROJ_DIR$\Release\Obj\system_1986&#x412;&#x415;91T1.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_matrix.o</file>
+      <file>$PROJ_DIR$\Release\Exe\c.out</file>
+      <file>$PROJ_DIR$\Release\Obj\ee_printf.o</file>
+      <file>$PROJ_DIR$\CortexM3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl4t_tln.a</file>
+      <file>$PROJ_DIR$\Release\Obj\coremark.pbd</file>
+      <file>$PROJ_DIR$\1986be91_wwdg.h</file>
+      <file>$PROJ_DIR$\1986be91_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Serial.c</file>
+      <file>$PROJ_DIR$\Serial.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_matrix.pbi</file>
+      <file>$PROJ_DIR$\1986be91_uart.h</file>
+      <file>$PROJ_DIR$\startup_1986be9x.s</file>
+      <file>$PROJ_DIR$\Release\Obj\core_util.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\1986be91_can.h</file>
+      <file>$PROJ_DIR$\1986be91_i2c.h</file>
+      <file>$PROJ_DIR$\1986be91_ext_bus_cntrl.h</file>
+      <file>$PROJ_DIR$\1986be91_eeprom.h</file>
+      <file>$PROJ_DIR$\1986be91_comp.h</file>
+      <file>$PROJ_DIR$\1986be91_dma.h</file>
+      <file>$PROJ_DIR$\core_portme.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_portme.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cvt.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$TOOLKIT_DIR$\config\generic.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\1986be91_bkp.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_state.o</file>
+      <file>$PROJ_DIR$\1986be91_usb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\1986be91_port.h</file>
+      <file>$PROJ_DIR$\core_state.c</file>
+      <file>$PROJ_DIR$\Release\Obj\core_state.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\lib\m4t_tl.a</file>
+      <file>$PROJ_DIR$\core_util.c</file>
+      <file>$PROJ_DIR$\1986be91_timer.h</file>
+      <file>$PROJ_DIR$\1986be91_dac.h</file>
+      <file>$PROJ_DIR$\1986be91_iwdg.h</file>
+      <file>$PROJ_DIR$\core_main.c</file>
+      <file>$PROJ_DIR$\cm3_macro.h</file>
+      <file>$PROJ_DIR$\1986be91t1.h</file>
+      <file>$PROJ_DIR$\Release\Obj\system_1986&#x412;&#x415;91T1.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\core_main.pbi</file>
+      <file>$PROJ_DIR$\coremark.h</file>
+      <file>$PROJ_DIR$\core_portme.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\cvt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 55 26 50 10 61 51 38 56 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_list_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_matrix.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ee_printf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45 33 21 55 50 10 61 51 38 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 49 0 5 12 22 19 53 37 17 24 18 20 48 62 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\coremark.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 3 1 71 34 46 60 13 47 2 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_1986be9x.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_state.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core_portme.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 45 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 45 69 39 68 54 42 11 44 35 16 40 9 29 66 64 30 65 43 58 52 41 7 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cvt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_list_join.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_matrix.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\ee_printf.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\system_1986&#x412;&#x415;91T1.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Serial.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_state.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_util.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\core_portme.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

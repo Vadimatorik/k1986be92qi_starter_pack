@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\FlashMDR32F1x.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>FlashMDR32F11x</project>
+        <configuration>FlashMDR32F1xRAM4K</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

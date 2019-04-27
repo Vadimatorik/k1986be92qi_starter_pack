@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2046233659</fileChecksum>
+  <configuration>
+    <name>FlashMDR32F1xRAM4K</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\src\flashloader\framework2\flash_loader.c</file>
+      <file>$PROJ_DIR$\FlashMDR32F1x.c</file>
+      <file>$TOOLKIT_DIR$\src\flashloader\framework2\flash_loader_asm.s</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_dac_defs.h</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\List\flash_loader.lst</file>
+      <file>$PROJ_DIR$\MDR32F1x4k.icf</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_bkp_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986be9x.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_power_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_can_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_wwdg_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\flash_loader.o</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\FlashMDR32F1x.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_i2c_defs.h</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\List\FlashMDR32F1x.lst</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\flash_loader_asm.o</file>
+      <file>$TOOLKIT_DIR$\src\flashloader\framework2\flash_loader.h</file>
+      <file>$TOOLKIT_DIR$\src\flashloader\framework2\flash_loader_extra.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_rst_clk_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\framework2\flash_loader_asm.s</file>
+      <file>$PROJ_DIR$\..\..\framework2\flash_loader.c</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_port_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_iwdg_defs.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Exe\FlashMDR32F1xRAM4K.out</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_timer_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_adc_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_uart_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_usb_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_comp_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\FlashMDR32F1x.pbi</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\List\FlashMDR32F1xRAM4K.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\flash_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_spi_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_ext_bus_cntrl_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\FlashMDR32F1x.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_dma_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\FlashMDR32F1xRAM4K\Obj\flash_loader.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\Milandr\1986BE9x_eeprom_defs.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 35 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\arm\src\flashloader\framework2\flash_loader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FlashMDR32F1x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 38 17 19 55 14 42 57 51 47 5 34 53 10 27 18 33 12 40 58 26 54 39 49 20 11 13 31 36 37 3 41 30 9 50 24 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 38 17 19 55 14 42 57 51 47 5 34 53 10 27 18 33 12 40 58 26 54 39 49 20 11 13 31 36 37 3 41 30 9 50 24 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\arm\src\flashloader\framework2\flash_loader_asm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework2\flash_loader_asm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework2\flash_loader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 48 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 48 18 38 17 19 55 14 42 57 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FlashMDR32F1xRAM4K\Exe\FlashMDR32F1xRAM4K.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 8 52 15 23 32 22 43 6</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
